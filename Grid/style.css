@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    padding: 20px;
+    background-color: #025955;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    border-radius: 12px;
+}
+
+.grid-item {
+    background-color: #FDE8CD;
+    border-radius: 12px;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.item1 {
+    grid-column:
+     1 / 2 span;
+    grid-row: 1 / 2 span;
+}
